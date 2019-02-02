@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#114b5f">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	
+	<title>Bianca Alves - Início</title>
+	
+	<!-- Bootstrap 4.2.1 -->
+	<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+
+	<!-- Material Icons -->
+	<link rel="stylesheet" href="assets/font-awesome/fontawesome.min.css">
+	
+	<!-- Swiper -->
+	<link rel="stylesheet" href="assets/swiper/swiper.min.css">
+
+	<!-- Estilo da página -->
+	<link rel="stylesheet" href="scss/style.min.css">
+</head>
+<body>
+	<header class="header" style="background-image:url('img/header-bg.png');">
+		<div class="container">
+			<div class="topbar">
+				<a href="#">
+					<figure class="img-wrap logo">
+						<img src="img/logo.png" alt="Bianca Alves">
+					</figure>
+				</a>
+				<ul class="menu">
+					<li><a href="#">Início</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#projetos">Projetos</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</div>
+
+			<div class="header-content">
+				<h1>As possibilidades são <span>infinitas.</span></h1>
+				<h2>Olá, meu nome é Bianca. Seja bem-vindo ao meu portfolio.</h2>
+				<a href="#sobre"><i class="fas fa-angle-down"></i></a>
+			</div>
+		</div>
+	</header>
+	
+
+	<main>
+		<section id="sobre" class="about">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xs-12 col-md-8">
+						<h3>Saiba mais</h3>
+						<h2>Sobre mim</h2>
+
+						<div class="section-content">
+							<figure class="img-wrap profile">
+								<img src="img/profile.jpg" alt="Bianca Alves">
+							</figure>
+
+							<div class="description">
+								<p>Técnica em Informática e graduanda em Sistemas de Informação. Foco em design e desenvolvimento front-end, utlilizando frameworks como jQuery e Bootstrap. Conhecimentos em PHP e desenvolvimento de plugins e temas WordPress.</p>
+							</div>
+						</div>
+
+						<h2>Habilidades</h2>
+
+						<div id="skills-swiper" class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="img/logos/html5.png" alt="HTML5">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/css3.png" alt="CSS3">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/javascript.png" alt="JavaScript">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/bootstrap.png" alt="Bootstrap">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/jquery.png" alt="jQuery">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/sass.png" alt="Sass">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/gulp.png" alt="Gulp">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/php.png" alt="PHP">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/logos/wordpress.png" alt="WordPress">
+								</div>
+							</div>
+							<!-- Add Pagination -->
+							<!-- Add Arrows -->
+						    <div class="swiper-button swiper-button-next">
+						    	<i class="fas fa-chevron-right"></i>
+						    </div>
+						    <div class="swiper-button swiper-button-prev">
+						    	<i class="fas fa-chevron-left"></i>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="projetos" class="projects">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xs-12 col-md-8">
+						<h3>Veja alguns dos meus</h3>
+						<h2>Projetos</h2>
+
+						<div id="projects-swiper" class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide" style="background-image: url('img/morada-dos-canyons.png');">
+									<div class="overlay">
+										<div class="slide-content">
+											<div class="tag">Desenvolvimento front-end</div>
+											<h3>Morada dos Canyons</h3>
+											<a href="https://www.moradadoscanyons.com/" class="btn btn-aqua" target="_blank">Ver projeto online</a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" style="background-image: url('img/app-fidelidade.png');">
+									<div class="overlay">
+										<div class="slide-content">
+											<div class="tag">Plugin e tema WordPress</div>
+											<h3>App Fidelidade</h3>
+											<a href="http://appfidelidade.com/" class="btn btn-aqua" target="_blank">Ver projeto online</a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide" style="background-image: url('img/rei-da-cerveja.png');">
+									<div class="overlay">
+										<div class="slide-content">
+											<div class="tag">Desenvolvimento front-end</div>
+											<h3>Rei da Cerveja</h3>
+											<a href="https://www.reidacerveja.com.br/" class="btn btn-aqua" target="_blank">Ver projeto online</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Add Pagination -->
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contato" class="contact">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xs-12 col-md-8">
+						<h3>Entre em</h3>
+						<h2>Contato</h2>
+
+						<p>Obrigada pela visita! Entre em contato comigo através dos canais abaixo.</p>
+
+						<ul>
+							<li>
+								<a href="mailto:biancalves421@gmail.com">
+									<i class="far fa-envelope"></i>
+									<span>biancalves421@gmail.com</span>
+								</a>
+							</li>
+							<li>
+								<a href="https://api.whatsapp.com/send?phone=5521987539974&text=Ol%C3%A1%2C%20visitei%20seu%20portoflio%20e%20gostaria%20de%20saber%20mais%20sobre">
+									<i class="fab fa-whatsapp"></i>
+									<span>(21) 9 8753-9974</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<p>&copy; Bianca Alves 2018. Todos os direitos reservados.</p>
+	</footer>
+	
+	<!-- JavaScript -->
+	<!-- jQuery 3.3.1 -->	
+	<script src="assets/jquery/jquery.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<script src="assets/bootstrap/bootstrap.min.js"></script>
+	
+	<!-- Swiper -->
+	<script src="assets/swiper/swiper.min.js"></script>
+
+	<!-- JS da página -->
+	<script src="js/main.js"></script>
+</body>
+</html>
