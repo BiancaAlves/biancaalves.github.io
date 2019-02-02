@@ -1,0 +1,50 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Projeto de portfólio estático hospedado no GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiancaAlves/biancaalves.github.io.git"
+  },
+  "author": "Bianca Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BiancaAlves/biancaalves.github.io/issues"
+  },
+  "homepage": "https://github.com/BiancaAlves/biancaalves.github.io#readme",
+  "keywords": [
+    "portfolio"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "ruby": "^0.6.1"
+  },
+  "devDependencies": {
+    "animate.css": "^3.5.2",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-replace": "^0.6.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-tinypng-compress": "^1.2.1",
+    "gulp-uglify": "^3.0.0",
+    "jquery-migrate": "^1.4.1",
+    "tiny-lr": "^1.0.5",
+    "tinypng-loader": "^1.0.6",
+    "wowjs": "^1.1.3"
+  }
+}

@@ -1,0 +1,12 @@
+*.psd
+scss/
+editing/
+logo/
+img/new/
+node-modules/*
+!node-modules/bootstrap-custom/
+!node-modules/jquery/
+!node-modules/font-awesome/
+!node-modules/wowjs/
+!node-modules/animate.css/
+!build/js/
